@@ -6,5 +6,11 @@ type Query {
 type Book {
     id: ID,
     name: String,
-    pageCount: Int
+    pageCount: Int,
+    author: Author
+}
+
+type Author {
+    id: ID,
+    name: String
 }
